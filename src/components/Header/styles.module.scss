@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+}
+
+.back:disabled, .next:disabled {
+  cursor: not-allowed;
+}
+
+.back, .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.back svg {
+  transform: rotate(180deg);
+}
+
+.progress > p {
+  margin: 0 10px;
+}

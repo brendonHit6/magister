@@ -1,0 +1,17 @@
+.wrapper {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: none;
+}
+
+.selectBtn {
+  padding: 8px 10px;
+  border: 1px solid gray;
+  border-radius: 4;
+  cursor: pointer;
+}
