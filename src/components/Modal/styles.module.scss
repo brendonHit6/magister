@@ -1,0 +1,37 @@
+.modal {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  height: min-content;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.content {
+  padding: 10px 30px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  color: #9EB8D9;
+}
+
+.about {
+  text-align: center;
+  font-size: 10px;
+  color: #78C1F3;
+  margin: 0 auto;
+}

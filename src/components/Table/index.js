@@ -37,6 +37,7 @@ const Table = ({ loading, step }) => {
         className={styles.myTable}
         columns={columns}
         data={step.realTable}
+        noDataComponent="Не вибрано файл"
       />
     </div>
   )

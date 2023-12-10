@@ -1,0 +1,3 @@
+const LAYER_BREAK_POINT = 5
+
+export { LAYER_BREAK_POINT }
